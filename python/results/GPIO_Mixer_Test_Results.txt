@@ -1,0 +1,5 @@
+Test 1: Power with normal level, Result: Fail, Expected: 0, Actual: 15
+Test 2: Powered with lowl level, Result: Fail, Expected: 3, Actual: 15
+Test 3: Powered with high level, Result: Fail, Expected: 4, Actual: 15
+Test 4: Mixer enginer is turned off, Result: Fail, Expected: 0, Actual: 15
+Test 5: Reset system, Result: Fail, Expected: 0, Actual: 15
