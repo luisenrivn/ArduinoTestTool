@@ -19,5 +19,5 @@ For STM32 micro-controllers:
 For the test example, the outputs of Arduino are configured with the internal pull_up resistors enabled.
 That means if we have the GPIO pin Arduino connected to nothing(floating) reads it as High and when we put the pin to
 ground it is read as Low. This configuration allows to connect the Arduino inputs directly to the SMT32 outputs, therefore
-the STM32 outputs must have the open-drain configuration (High-floating, Low- ground).
+the STM32 outputs must have the open-drain configuration (High - floating, Low - ground).
 
