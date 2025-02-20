@@ -46,7 +46,7 @@ GPIO_Test1.set_gpio_value(ser, data_to_send)
 time.sleep(2)
 # Expected: Fluid 1 and 2 should activate 0011 - 3
 obtained_data = GPIO_Test1.get_gpio_value(ser)
-test_name = "Test 2: Powered with lowl level"
+test_name = "Test 2: Powered with low level"
 verify_result(test_name, 3, obtained_data)
 
 time.sleep(3)
@@ -69,7 +69,7 @@ time.sleep(5)
 # Expected: Mixer engine should be turned off 
 # activate for 5 seconds  0000 - 0
 obtained_data = GPIO_Test1.get_gpio_value(ser)
-test_name = "Test 4: Mixer enginer is turned off"
+test_name = "Test 4: Mixer engine is turned off"
 verify_result(test_name, 0, obtained_data)
 
 time.sleep(3)
